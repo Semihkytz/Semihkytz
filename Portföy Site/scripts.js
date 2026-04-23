@@ -18,4 +18,9 @@ toggleSwitch.addEventListener('change', () => {
         body.classList.add('light-mode');
         localStorage.setItem('theme', 'light-mode');
     }
+    {
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
 });
